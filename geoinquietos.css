@@ -1,0 +1,117 @@
+/* Colores por tema */
+
+/* moon
+
+Color de fondo #002b36 o #002b36
+Color de strong #eee8d5
+
+*/
+
+
+.reveal section .no-back{
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+
+.reveal section strong{
+  color: #eee8d5; /*para moon*/
+}
+
+.reveal section .bordes img {
+  max-height: 170px;
+  max-width: 150px;
+  min-height: 170px;
+}
+.reveal section .bordes div {
+  display: inline-block;
+  margin: 10px 40px;
+}
+
+.reveal blockquote:before {
+  content: '\00AB';
+}
+.reveal blockquote:after {
+  content: '\00BB';
+}
+
+
+/* Diapos con fondo */
+
+.reveal section .hBox{
+  background-color: #002b36;
+  background-color: rgba(0, 43, 54, 0.95); /* para moon */
+  padding: 25px;
+  color: white; /* para moon */
+}
+.reveal .hBoxTop{
+  top:-380px !important;
+}
+.como-funciona-esto .reveal .state-background{
+  background: #002b36 url('imgs/organizar.jpg') no-repeat center center;
+}
+.donde-nacen .reveal .state-background{
+  background: #002b36 url('imgs/huevos.jpg') no-repeat center center;
+}
+.fight-club .reveal .state-background{
+  background: #002b36 url('imgs/fight-club.jpg') no-repeat center center;
+}
+.ruido .reveal .state-background{
+  background: #002b36 url('imgs/ruido.jpg') no-repeat center center;
+}
+.burocracia .reveal .state-background{
+  background: #002b36 url('imgs/burocracia.jpg') no-repeat center center;
+}
+.liderazgo .reveal .state-background{
+  background: #002b36 url('imgs/liderazgo.jpg') no-repeat center center;
+}
+.anarquia .reveal .state-background{
+  background: #002b36 url('imgs/anarquia.jpg') no-repeat center center;
+}
+.miedo-error .reveal .state-background{
+  background: #000000 url('imgs/error.png') no-repeat center center;
+}
+.evolucion .reveal .state-background{
+  background: #002b36 url('imgs/darwin.jpg') no-repeat center center;
+}
+.solitario .reveal .state-background{
+  background: #002b36 url('imgs/solitario.jpg') no-repeat center center;
+}
+.atencion .reveal .state-background{
+  background: #002b36 url('imgs/atencion.jpg') no-repeat center center;
+}
+.duff .reveal .state-background{
+  background: #000000 url('imgs/duff.jpg') no-repeat center center;
+}
+.cursos .reveal .state-background{
+  background: #002b36 url('imgs/cursos.jpg') no-repeat center center;
+}
+.charlas .reveal .state-background{
+  background: #002b36 url('imgs/charlas.jpg') no-repeat center center;
+}
+.conferencias .reveal .state-background{
+  background: #002b36 url('imgs/conferencias.jpg') no-repeat center center;
+}
+.mapping-parties .reveal .state-background{
+  background: #002b36 url('imgs/mapping-parties.jpg') no-repeat center center;
+}
+.actividades .reveal .state-background{
+  background: #002b36 url('imgs/actividades.jpg') no-repeat center center;
+}
+.juntarse .reveal .state-background{
+  background: #002b36 url('imgs/juntarse.jpg') no-repeat center center;
+}
+.desvirtualizar .reveal .state-background{
+  background: #002b36 url('imgs/desvirtualizar.jpg') no-repeat center center;
+}
+.fiesta .reveal .state-background{
+  background: #002b36 url('imgs/fiesta.jpg') no-repeat center center;
+}
+.aprender .reveal .state-background{
+  background: #002b36 url('imgs/aprender.jpg') no-repeat center center;
+}
+.gracias .reveal .state-background{
+  background: #002b36 url('imgs/gracias.jpg') no-repeat center center;
+}
+
+
